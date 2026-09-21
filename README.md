@@ -11,7 +11,7 @@ Kodun temel yapısı iki ana çalışma moduna ayrılır:
 
 ### Controller
 
-Ana kontrolcü olarak ESP32/ProBot kartı kullanılmaktadır.
+Ana kontrolcü olarak ESP32 N16R8 devkit kullanılmaktadır.
 
 I2C hattı:
 
@@ -22,6 +22,7 @@ I2C hattı:
 
 I2C frekansı:
 
+Yüksek hız & düşük işlemci yükü için ayarlanmış clock hızı
 ```cpp
 Wire.setClock(400000);
 ```
