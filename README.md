@@ -1,5 +1,3 @@
-# ProBot Firmware
-
 ESP32 tabanlı ProBot kontrol yazılımı. Firmware; PCA9685 üzerinden motor/servo çıkışlarını, BNO08x IMU üzerinden yön bilgisini ve joystick üzerinden manuel sürüşü yönetir.
 
 Kodun temel yapısı iki ana çalışma moduna ayrılır:
